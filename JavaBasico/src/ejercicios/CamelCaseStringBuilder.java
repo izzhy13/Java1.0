@@ -13,7 +13,7 @@ public class CamelCaseStringBuilder {
 
         // --- Preparación para la construcción---
         // Creamos un StringBuilder en lugar de un String vacío.
-        StringBuilder constructor = new StringBuilder();
+        StringBuilder sb = new StringBuilder();
         
         boolean convertirAMayuscula = false;
 
@@ -30,17 +30,20 @@ public class CamelCaseStringBuilder {
             
             if (convertirAMayuscula) {
                 // Usamos .append() para añadir el carácter. ¡Es muy eficiente!
-                constructor.append(Character.toUpperCase(caracterActual));
+            	System.out.println("Tengo " + caracterActual);
+            	System.out.println("Quiero " + Character.toUpperCase(caracterActual));
+                sb.append(Character.toUpperCase(caracterActual));
                 convertirAMayuscula = false;
             } else {
                 // Usamos .append() aquí también.
-                constructor.append(caracterActual);
+                sb.append(caracterActual);
             }
         }
+        Character.
 
         // ---Obtener el resultado final (NUEVO PASO) ---
         // Convertimos el contenido del StringBuilder a un String final.
-        String resultadoFinal = constructor.toString();
+        String resultadoFinal = sb.toString();
         
         System.out.println("Resultado con StringBuilder: '" + resultadoFinal + "'");
     }
