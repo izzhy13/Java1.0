@@ -39,7 +39,6 @@ public class CamelCaseStringBuilder {
                 sb.append(caracterActual);
             }
         }
-        Character.
 
         // ---Obtener el resultado final (NUEVO PASO) ---
         // Convertimos el contenido del StringBuilder a un String final.
