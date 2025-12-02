@@ -22,7 +22,7 @@ public class Arrays {
         String[] listaNombres;   
         //System.out.println ("Esto ahora mismo falla: "+ listaNombres[14]);
         listaNombres = new String[50]; // Crea un array para 50 Strings.
- 
+
         System.out.println ("El valor por defecto del String es : "+ listaNombres[14]);
         
        
@@ -30,7 +30,10 @@ public class Arrays {
         //Creeamos un array de 7 Strings. Java sabe que el tamaño es 7.
         String[] diasDeLaSemana = {"Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"};
         System.out.println("diasDeLaSemana tiene: " + diasDeLaSemana.length + " elementos");
+
         System.out.println("El elemento 2 (posición 1 del array) tiene " + diasDeLaSemana[1].length() + " caracteres");
+
+
         
         //Una mezcla de los dos
         int[] numerosPares = new int[]{2, 4, 6, 8, 10};
