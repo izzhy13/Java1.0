@@ -42,8 +42,18 @@ public class ValorOReferencia {
         System.out.println("Contenido final DESPUÉS: " + miBuilder);
         System.out.println("-> Conclusión: El contenido del StringBuilder SÍ ha cambiado.");
         System.out.println("--------------------------------------------------");
+        
+     // --- 2. ARRAY de Strings(Objeto Mutable) ---
+        String[] miArrayString = {"Cambiará", "o", "no"};
+        System.out.println("--- 5. ARRAY de String(Objeto Mutable vs Inmutable) ---");
+        System.out.println("Contenido original ANTES: " + Arrays.toString(miArrayString));
+        modificarArrayString(miArrayString);
+        System.out.println("Contenido final DESPUÉS: " + Arrays.toString(miArrayString));
+        System.out.println("-> Conclusión: El contenido del array SÍ ha cambiado.");
+        System.out.println("--------------------------------------------------\n");
     }
 
+    
     // =================================================================
     // MÉTODOS AUXILIARES
     // =================================================================
@@ -60,6 +70,10 @@ public class ValorOReferencia {
      */
     public static void modificarArray(int[] array) {
         array[0] = 999; // Modificamos el contenido del objeto original.
+    }
+    
+    public static void modificarArrayString(String[] array) {
+        array[2] = "sí"; // Modificamos el contenido del objeto original.
     }
 
     /**
