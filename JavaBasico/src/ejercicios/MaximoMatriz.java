@@ -11,9 +11,12 @@ public class MaximoMatriz {
 		
 		//Pedimos la fila y columna por teclado
 		int[][] matriz = new int[fila][columna];
-		int[][] matriz2= {{1,2,3},{4,5,6},{7,8,9},{10,11,12}};
-		String[][] vector = {{"adfg","bf","cs"},{"er","er","asas"}};
 		
+		Recursos.rellenarMatrizAleatoria(matriz, 100);
+		
+		Recursos.mostrarMatriz(matriz);
+		
+		/*
 		//Rellenamos la matriz con números aleatorios
 		for (int i=0; i<matriz.length;i++) {
 			for(int j=0; j<matriz[0].length;j++) {
@@ -21,16 +24,14 @@ public class MaximoMatriz {
 			}
 			System.out.println("");
 		}
-		
-		
-		
+		//Mostramos la matriz por pantalla
 		for (int i=0; i<matriz.length;i++) {
 			for(int j=0; j<matriz[0].length;j++) {
 				System.out.print(matriz[i][j] + " ");
 			}
 			System.out.println("");
 		}
-		
+		*/
 		
 	}
 
