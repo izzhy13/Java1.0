@@ -2,7 +2,7 @@ package basicos;
 
 import java.util.Scanner;
 
-public class Arrays {
+public class ArraysExplicacion {
 
 	public static void main(String[] args) {
 		
