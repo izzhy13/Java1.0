@@ -29,6 +29,7 @@ public class AlgorimoBurbuja {
 		}
 		System.out.println("Finalmenque queda así");	
 		Recursos.mostrarArray(arrayNumeros);
+		sc.close();
 	}
-
+	
 }
