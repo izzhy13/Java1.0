@@ -12,8 +12,6 @@ public class MaximoMatriz {
 		//Pedimos la fila y columna por teclado
 		int[][] matriz = new int[fila][columna];
 		
-		Recursos.rellenarMatrizAleatoria(matriz, 100);
-		Recursos.mostrarMatriz(matriz);
 		
 		int maximo = matriz[0][0];
 		
