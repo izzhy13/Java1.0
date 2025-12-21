@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html","k":"18"},{"p":"basicos","l":"Documentacion"},{"p":"basicos","l":"Documentacion.GestorConexiones"}];updateSearchResults();
