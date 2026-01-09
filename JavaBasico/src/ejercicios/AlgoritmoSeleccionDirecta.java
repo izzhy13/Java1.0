@@ -3,7 +3,7 @@ package ejercicios;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class MetodoSeleccionDirecta {
+public class AlgoritmoSeleccionDirecta {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

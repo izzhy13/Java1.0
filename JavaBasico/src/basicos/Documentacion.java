@@ -2,16 +2,19 @@ package basicos;
 
 public class Documentacion {
 
+	
+	//Hola soy un comentario de una línea
+	
+	/*
+	  Hola hola 
+	  Yo soy multilínea
+	 */
+	
+	
 	/**
 	 * Calcula el área de un círculo.
 	 * @param radio El radio del círculo en metros. Debe ser positivo.
 	 * @return El área calculada en metros cuadrados.
-	 */
-	
-	//Hola
-	
-	/*
-	  Hola hola 
 	 */
 	public double calcularArea(double radio) {
 	    // Usamos la fórmula A = pi * r^2.
