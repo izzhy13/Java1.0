@@ -4,11 +4,13 @@ public class Tamagotchi {
 	private String nombre;
 	private int hambre;
 	private int energia;
+	private double peso;
 	
 	public Tamagotchi(String nombre) {
 		this.nombre=nombre;
 		this.energia=100;
 		this.hambre=0;
+		this.peso=15;
 	}
 	
 	public Tamagotchi(String nombre, int energia, int hambre) {
@@ -17,9 +19,17 @@ public class Tamagotchi {
 		this.hambre=hambre;
 	}
 	
-	public void status() {
+	public void estado() {
 		System.out.println("Tu mascota " + nombre + " tiene " + hambre + 
 				" de hambre y " +energia + " de energía");
+	}
+	
+	public void saludar() {
+		System.out.print("Soy " + this.nombre + " encantado de conocerte, qué hacemos ahora?");
+	}
+	
+	private void engordar(int engorde) {
+		peso+=5;
 	}
 	
 	public void comer() {
@@ -28,6 +38,7 @@ public class Tamagotchi {
 		} else {
 			this.hambre-=10; //Lo mismo que this.hambre=this.hambre-10;	
 		}
+		engordar(6);
 		
 	}
 	

@@ -18,6 +18,7 @@ public class Persona {
         
         if (this.edad > otraPersona.edad) {
             System.out.println(this.nombre + " es mayor que " + otraPersona.nombre);
+            System.out.print(this.nombre + " tiene " + this.edad + " años");
         } else if (this.edad < otraPersona.edad) {
             System.out.println(this.nombre + " es menor que " + otraPersona.nombre);
         } else {
