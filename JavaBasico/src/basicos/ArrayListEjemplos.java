@@ -16,7 +16,7 @@ public class ArrayListEjemplos {
 		invitados[2] = "Marta";
 
 		// ¡Problema! Llega Javier.
-		// invitados[3] = "Javier"; // ERROR: ArrayIndexOutOfBoundsException
+		//invitados[3] = "Javier"; // ERROR: ArrayIndexOutOfBoundsException
 		
 		//SOLUCION mala, con arrays normales
 		// 1. Crear un array nuevo más grande
@@ -131,12 +131,12 @@ public class ArrayListEjemplos {
 		numeros2.add(15);
 		numeros2.add(25);
 
-		System.out.println("\n\nInicialmente: " + numeros2); 
+		System.out.println("\n\nInicialmente: " + numeros2);
+		
 		Collections.reverse(numeros2);
-		
 		System.out.println("Invertida: " + numeros2);
-		Collections.sort(numeros2);
 		
+		Collections.sort(numeros2);
 		System.out.println("Ordenada: " + numeros2); 
 		
 		

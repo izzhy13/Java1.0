@@ -6,5 +6,12 @@ public class MainPruebas {
         SistemaInseguro.saldo = -5000.0; 
         System.out.println("Titular: " + SistemaInseguro.titular);
         System.out.println("Saldo actual: " + SistemaInseguro.saldo);
+        
+        SistemaInseguro.saldo = 500000.0;
+        SistemaInseguro.titular="Eduardo Niévares";
+        
+        System.out.println("Titular: " + SistemaInseguro.titular);
+        System.out.println("Saldo actual: " + SistemaInseguro.saldo);
+        
     }
 }
