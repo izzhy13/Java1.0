@@ -1,5 +1,7 @@
 package pooEjercercicios;
 
+import java.util.Objects;
+
 public class Persona {
 	private String nombre;
 	private int edad;

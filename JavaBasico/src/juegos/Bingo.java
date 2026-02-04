@@ -1,7 +1,8 @@
 package juegos;
 
-import ejercicios.Recursos;
 import java.util.Scanner;
+
+import utilidades.Recursos;
 
 public class Bingo {
 
