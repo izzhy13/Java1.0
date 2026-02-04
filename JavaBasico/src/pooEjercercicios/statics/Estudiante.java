@@ -1,4 +1,4 @@
-package pooEjercercicios;
+package pooEjercercicios.statics;
 
 public class Estudiante {
 	private String nombre;

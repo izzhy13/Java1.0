@@ -1,4 +1,4 @@
-package pooEjercercicios;
+package pooEjercercicios.abstraccion;
 
 import java.util.Scanner;
 import java.util.ArrayList;

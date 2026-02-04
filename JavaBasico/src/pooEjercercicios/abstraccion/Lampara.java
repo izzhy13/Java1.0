@@ -1,4 +1,4 @@
-package pooEjercercicios;
+package pooEjercercicios.abstraccion;
 
 public class Lampara {
 	private String color;

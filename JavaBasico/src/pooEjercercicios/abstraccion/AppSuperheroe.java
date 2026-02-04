@@ -1,4 +1,4 @@
-package pooEjercercicios;
+package pooEjercercicios.abstraccion;
 
 public class AppSuperheroe {
 	public static void main (String[] args) {
