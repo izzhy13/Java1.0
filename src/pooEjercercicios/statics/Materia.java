@@ -37,6 +37,10 @@ public class Materia {
 		return estudiantes;
 	}
 	
+	public int numeroEstudiantes() {
+		return estudiantes.size();
+	}
+	
 	public static int getNumeroMatriculas() {
 		return numeroMatriculas;
 	}
