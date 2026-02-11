@@ -33,8 +33,9 @@ public class Materia {
 		return codigoMateria;
 	}
 	
-	public ArrayList<Estudiante> getEstudiantes() {
-		return estudiantes;
+	public String getEstudiantes() {
+		//Esto aún no funciona, necesitamos ver algo de herencia antes
+		return estudiantes.toString();
 	}
 	
 	public int numeroEstudiantes() {

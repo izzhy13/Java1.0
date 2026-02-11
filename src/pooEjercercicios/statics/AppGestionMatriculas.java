@@ -78,11 +78,10 @@ public class AppGestionMatriculas {
 		
 		for (Materia m : materias) {
 			if (m.getCodigoMateria() == codMateria) {
-				m.getEstudiantes();
+				System.out.println(m.getEstudiantes());
 				System.out.println("En total son: " + m.numeroEstudiantes());
 			}
 		}
-		
 	}
 	
 	public static void mostrarTotalMatriculados(){
