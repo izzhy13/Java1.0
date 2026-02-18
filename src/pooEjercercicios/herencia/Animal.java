@@ -8,7 +8,7 @@ public class Animal {
 	}
 	
 	public void hacerSonido() {
-		System.out.println("El animal "+ nombre + " emite un sonido");	
+		System.out.print("El animal "+ nombre + " emite un sonido");	
 	}
 	
 }

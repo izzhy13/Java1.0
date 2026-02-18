@@ -6,4 +6,10 @@ public class Gato extends Animal{
 		super(nombre);
 	}
 	
+	@Override
+	public void hacerSonido() {
+		super.hacerSonido();
+		System.out.println(", concretamente hace miaaauu");	
+
+	}
 }
