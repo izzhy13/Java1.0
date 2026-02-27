@@ -26,7 +26,7 @@ public class AppJuegos {
 			case 2:
 				System.out.println("Jugando a la variante miseria");
 				TresEnRayaMisery partida2 = new TresEnRayaMisery("Edu", 'X', "Ana", 'O');
-				partida2.inicio();
+	
 				break;
 			case 0:
 				System.out.println("Vuelve pronto!");

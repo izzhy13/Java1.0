@@ -12,8 +12,7 @@ public class TresEnRayaMisery extends JuegoDeTablero{
 		
 		while (!finPartida) {
 			mostrarTurno();
-			realizarJugada();
-			
+			realizarJugada();	
 			
 			//Comprobar si hemos terminado (ganando o empatando)
 			if (tablero.hayGanador()) {

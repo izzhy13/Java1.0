@@ -2,7 +2,7 @@ package tresEnRaya;
 
 import java.util.Scanner;
 
-public class JuegoDeTablero {
+public abstract class JuegoDeTablero {
 	protected Tablero tablero;
 	protected Jugador j1, j2;
 	protected Jugador jugadorActivo;

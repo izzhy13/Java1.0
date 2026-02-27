@@ -9,7 +9,9 @@ public class Juego {
 
     public void iniciar() {
         System.out.println("Cargando el juego: " + titulo + "...");
-    }
+    } 
     
-    public String getTitulo() { return titulo; }
+    public String getTitulo() {
+    	return titulo; 
+    	}
 }

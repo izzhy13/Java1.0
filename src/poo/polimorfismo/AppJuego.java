@@ -7,8 +7,9 @@ public class AppJuego {
         // UPCASTING: Creamos una lista de "Juego" (el tipo general)
         // pero dentro guardamos objetos de tipos específicos.
         ArrayList<Juego> misJuegos = new ArrayList<>();
-
-        misJuegos.add(new SuperMario()); 
+        
+        SuperMario sm = new SuperMario();
+        misJuegos.add(sm); 
         misJuegos.add(new Sonic());     
 
         System.out.println("--- INICIANDO BIBLIOTECA DE JUEGOS ---");
