@@ -33,6 +33,30 @@ public class Jugador {
         return puntuacionMaxima; 
     } 
 
+  
+    //Error1
+    /*
+    public static void metodo() { 
+
+        System.out.println(nombre);  
+
+    } */
+    
+
+    // Error2
+
+    /*
+    public static void metodo() { 
+        mostrarFicha();    
+    } 
+
+    // Corrección: necesitamos un objeto 
+
+    public static void metodo2() { 
+        Jugador j = new Jugador("Test", 0); 
+        j.mostrarFicha(); 
+
+    } */
  
 
     public static void resumenGlobal() { 
