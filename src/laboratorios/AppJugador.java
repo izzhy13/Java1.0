@@ -4,10 +4,10 @@ public class AppJugador {
 	 
     public static void main(String[] args) { 
 
-        // Antes de crear ningún jugador podemos consultar datos globales 
+        // Antes de crear ningún jugador podemos consultar datos globales
         System.out.println("Jugadores al inicio: " + Jugador.getTotalJugadores());  
 
-        // Creamos jugadores 
+        // Creamos jugadores
         Jugador j1 = new Jugador("Ana",    1500); 
         Jugador j2 = new Jugador("Bruno",  3200); 
         Jugador j3 = new Jugador("Carmen",  980); 

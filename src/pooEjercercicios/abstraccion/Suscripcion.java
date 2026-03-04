@@ -1,0 +1,50 @@
+package pooEjercercicios.abstraccion;
+
+import java.util.ArrayList;
+
+public abstract class Suscripcion {
+	private String nombreUsuario;
+	private final double precioBase;
+	private ArrayList<Perfil> perfiles = new ArrayList<>();
+	
+	public Suscripcion(String nombreUsuario, double precioBase) {
+		this.nombreUsuario=nombreUsuario;
+		if (precioBase < 0) {
+			//Si intentan engañarnos que paguen!!
+			this.precioBase=100;
+		}else {
+			this.precioBase=precioBase;	
+		}
+		
+	}
+	
+
+	public double getPrecioBase() {
+		return precioBase;
+	}
+
+
+	public String getNombreUsuario() {
+		return nombreUsuario;
+	}
+
+
+	protected abstract double calcularPrecio();
+	
+	protected abstract int getMaxPerfiles();
+	
+	protected void anadirPerfil(Perfil p) {
+		if (getPerfiles().size() >= getMaxPerfiles()) {
+			System.out.print("Tu lista está llena, no puedes añadir más perfiles");
+		} else {
+			getPerfiles().add(p);
+		}
+		
+	}
+
+	protected ArrayList<Perfil> getPerfiles() {
+		return perfiles;
+	}
+
+	
+}

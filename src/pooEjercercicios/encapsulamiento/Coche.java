@@ -1,4 +1,4 @@
-package pooEjercercicios.abstraccion;
+package pooEjercercicios.encapsulamiento;
 
 public class Coche {
 	private String marca;

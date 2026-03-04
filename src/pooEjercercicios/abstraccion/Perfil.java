@@ -1,27 +1,30 @@
 package pooEjercercicios.abstraccion;
 
-import java.util.Objects;
+public class Perfil {
 
-public class Persona {
 	private String nombre;
 	private int edad;
-
 	
-	public Persona(String nombre, int edad) {
+	
+	public Perfil(String nombre, int edad) {
 		this.nombre = nombre;
 		this.edad = edad;
 	}
+
 
 	public String getNombre() {
 		return nombre;
 	}
 
+
 	public int getEdad() {
 		return edad;
 	}
 
-	public String toString() {
-		return "Soy " + nombre + " y tengo " + edad + " años";
+
+	public String mostrarDatos() {
+		return "Perfil [nombre=" + nombre + ", edad=" + edad + "]";
 	}
+	
 	
 }
