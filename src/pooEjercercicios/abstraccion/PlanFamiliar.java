@@ -1,14 +1,18 @@
 package pooEjercercicios.abstraccion;
 
 public class PlanFamiliar extends Suscripcion{
-	//El regargo del 40%
+	//El recargo del 40%
 	private static final double PLUS=0.4;
 	
 	private int maxPerfiles=5;
 	
-
 	public PlanFamiliar(String nombreUsuario, double precioBase) {
 		super(nombreUsuario, precioBase);
+	}
+	
+	public PlanFamiliar(String nombreUsuario, double precioBase, int maxPerfiles) {
+		super(nombreUsuario, precioBase);
+		this.maxPerfiles=maxPerfiles;
 	}
 	
 	@Override

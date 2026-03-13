@@ -8,9 +8,6 @@ public class PlanEstandar extends Suscripcion{
 
 	}
 
-
-
-
 	public int getMaxPerfiles() {
 		return maxPerfiles;
 	}

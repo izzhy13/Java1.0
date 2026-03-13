@@ -1,6 +1,7 @@
 package pooEjercercicios.abstraccion;
 
 import java.util.ArrayList;
+import java.util.Objects;
 
 public abstract class Suscripcion {
 	private String nombreUsuario;
@@ -18,6 +19,28 @@ public abstract class Suscripcion {
 		
 	}
 	
+	
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(nombreUsuario);
+	}
+
+
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Suscripcion other = (Suscripcion) obj;
+		return Objects.equals(nombreUsuario, other.nombreUsuario);
+	}
+
+
 
 	public double getPrecioBase() {
 		return precioBase;
