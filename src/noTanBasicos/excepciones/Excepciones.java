@@ -1,4 +1,4 @@
-package noTanBasicos;
+package noTanBasicos.excepciones;
 
 public class Excepciones {
 
